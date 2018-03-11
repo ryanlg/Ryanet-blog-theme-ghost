@@ -1,0 +1,24 @@
+{{!< default}}
+{{> sidebar}}
+{{#post}}
+<div id="post-wrapper" class="with-animation">
+  <div class="post-container">
+    <article class="{{post_class}}">
+      <header>
+        <h1 class="post-title">{{title}}</h1>
+        <h5 class="post-date">
+          <time datetime="{{date format='YYYY-MM-DD'}}">
+            {{date format="DD MMMM YYYY"}}
+          </time>
+        </h5>
+      </he5der>
+      <div class="separator"></div>
+      <section class="post-content">
+        {{content}}
+      </section>
+      <div class="separator"></div>
+    </article>
+  </div>
+</div>
+
+{{/post}}

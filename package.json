@@ -1,0 +1,16 @@
+{
+  "name": "ryan",
+  "description": "Just a theme for the blog, nothing really amazing.",
+  "version": "1.0",
+  "license": "MIT",
+  "Github":"https://github.com/xmomowan",
+  "author": {
+      "name": "Ryan Liang",
+      "email": "xmomowan@gmail.com",
+      "url": "https://ryanliang.io"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/xmomowan/Ryanet-blog-theme-ghost.git"
+  }
+}

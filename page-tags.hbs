@@ -1,0 +1,17 @@
+{{!< default}}
+
+<div id="ias-wrapper" class="card">
+  <div class="ias-container">
+    <form>
+      <input name="search-date"
+    </form>
+    <section class="tags-container">
+      {{#get "tags" limit="all"}}
+        {{#foreach tags}}
+          <a class="tag">{{name}}</a>
+        {{/foreach}}
+      {{/get}}
+    </section>
+  </div>
+
+</div>

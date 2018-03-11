@@ -1,0 +1,42 @@
+{{!-- Previous/next page links - only displayed on page 2+ --}}
+{{!-- This is the post loop - each post will be output using this markup --}}
+{{#foreach posts}}
+{{#has tag="about-reserved"}}
+{{else}}
+<article class="ia">
+	<header class="ia-header">
+		<h2><a class="ia-header-link" href="{{url}}">{{title}}</a></h2>
+	</header>
+	<section class="ia-content">
+		<div class="ia-content-widget-container">
+			<div class="ia-content-widget-separator">
+
+			</div>
+			<div class="ia-content-widget-time">
+				<time class="ia-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+			</div>
+
+			{{#if tags}}
+			<section>
+				<ul class="nodot">
+					{{#foreach tags limit="2"}}
+					<li>
+							<a href="{{url}}" title="{{name}}" class="nonhover tag block">{{name}}
+							</a>
+					</li>
+					{{/foreach}}
+				</ul>
+			</section>
+ 			{{/if}}
+		</div>
+		<div class="ia-content-container">
+			{{content paragraph='1'}}
+		</div>
+	</section>
+	<footer>
+	<a class="ia-read-more" href="{{{url}}}" title="{{title}}" >Read more... </a>
+</footer>
+<div class="separator ia-separator"></div>
+</article>
+{{/has}}
+{{/foreach}}
