@@ -1,0 +1,7 @@
+@import '../../../node_modules/compass-mixins/lib/_compass.scss';
+@import '../../../node_modules/normalize-scss/sass/normalize/_import-now.scss';
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
