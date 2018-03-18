@@ -1,0 +1,78 @@
+#sidemenu{
+  position: fixed;
+  z-index: 200;
+  margin: 10px;
+  height: 100px;
+  width: 150px;
+}
+
+#sidemenu div#sidemenu-container{
+  height: 100%;
+  width: 100%;
+}
+
+#sidemenu img#sidemenu-profile-image{
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px;
+  z-index: 100;
+  margin: 8px 10px;
+  cursor: pointer;
+}
+
+#sidemenu div.sidemenu-top{
+  border: 1px solid rgba(133, 133, 133, 0.2);
+  height: 50px;
+  width: 150px;
+  box-shadow: 0px 2px 5px rgba(130, 130, 130, 0.2);
+  position: fixed;
+  z-index: 80;
+  border-radius: 2px;
+  background: white;
+}
+
+#sidemenu a.sidemenu-top-name{
+  display: block;
+  margin: 10px 5px 5px 55px;
+  text-shadow: 0px 0px 1px rgba(130, 130, 130, 0.2);
+}
+
+#sidemenu div.sidemenu-menu{
+  margin-top: 50px;
+  position: fixed;
+  width: 150px;
+  height: 115px;
+  border-color: rgba(133, 133, 133, 0.2);
+  border: 1px solid rgba(133, 133, 133, 0.2);
+  z-index: 50;
+  background: white;
+  box-shadow: 0px 2px 5px rgba(130, 130, 130, 0.2);
+}
+
+#sidemenu div.sidemenu-btn{
+}
+
+#sidemenu ul{
+  padding-left: 33px;
+}
+
+#sidemenu span.sidemenu-btn-name{
+  padding-left: 10px;
+}
+
+#sidemenu a.sidemenu-btn-link{
+  color : rgb(100, 100, 100);
+}
+
+#sidemenu a.sidemenu-btn-link:hover{
+  text-decoration: none;
+  color: #819BA6;
+}
+
+#sidemenu div.sidemenu-separator{
+  margin-left: -30px;
+  margin-bottom: 15px;
+  border-top: 1px solid rgb(230, 230, 230);
+}

@@ -1,0 +1,102 @@
+#ias-wrapper{
+  float: right;
+  width: calc(100% - 370px);
+  margin: 30px 40px;
+  min-height: calc(100% - 60px);
+}
+
+#ias-wrapper div.ias-container{
+  max-width: 1600px;
+  margin: 50px auto 0px auto;
+  padding: 0px 80px;
+}
+
+#ias-wrapper header.ia-header{
+  font-size: 30px;
+  color: black;
+  letter-spacing: 3px;
+  //text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#ias-wrapper a.ia-header-link{
+  font-weight: 100;
+  color: black;
+}
+
+#ias-wrapper a.ia-header-link:hover{
+  color: #349ef3;
+}
+
+#ias-wrapper article.ia{
+  margin-bottom: 100px;
+}
+
+#ias-wrapper section.ia-content{
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+#ias-wrapper div.ia-content-container{
+  width: calc(100% - 180px);
+  margin-right: 0px;
+}
+
+#ias-wrapper div.ia-content-container p{
+  color: rgb(100, 100, 100);
+}
+
+#ias-wrapper div.ia-content-widget-container{
+  text-align: center;
+  margin: auto 0px;
+  float: right;
+}
+
+#ias-wrapper div.ia-content-widget-separator{
+  border-top: 1px solid rgb(218, 223, 225);
+  margin: 10px;
+}
+
+#ias-wrapper time.ia-date{
+  color: rgb(133, 133, 133);
+  font-size: 12px;
+}
+
+#ias-wrapper a.ia-read-more{
+}
+
+#ias-wrapper div.ia-separator{
+  width: 400px;
+  margin: 80px auto 0px auto;
+}
+
+#ias-wrapper div.tag-header{
+  background-color: grey;
+  text-align: center;
+}
+
+#ias-wrapper .tag-header-tag{
+  margin: 0px;
+  color: white;
+  padding: 15px 0px 10px 0px;
+}
+
+#ias-wrapper div.tag-header-separator{
+  margin: 0px auto;
+  width: 50px;
+}
+
+#ias-wrapper h1.tag-header-name{
+  padding: 10px 0px 15px 0px;
+  margin: 0px;
+  color: white;
+}
+
+#ias-wrapper a.tags-tag{
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #349ef3;
+  border-radius: 5px;
+}
