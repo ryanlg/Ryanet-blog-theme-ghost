@@ -14,8 +14,8 @@
         "url": "https://github.com/xmomowan/Ryanet-blog-theme-ghost.git"
     },
     "scripts": {
-        "build-scss": "node-sass --include-path assets/src/scss/ --output assets/out/css/ assets/src/scss/ryan.scss",
-        "watch-scss": "nodemon -w ghost/content/themes/ryan/assets/src/scss/ -e scss -x 'npm run build-scss'"
+        "build-scss": "node-sass --include-path assets/src/scss/ --output assets/static assets/src/scss/ryan.scss",
+        "watch-scss": "nodemon -w assets/src/scss/ -e scss -x 'npm run build-scss'"
     },
     "dependencies": {
         "compass-mixins": "^0.12.10",
