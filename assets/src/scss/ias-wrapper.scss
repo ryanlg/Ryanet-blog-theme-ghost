@@ -11,18 +11,13 @@
   padding: 0px 80px;
 }
 
-#ias-wrapper header.ia-header{
-  font-size: 30px;
-  color: black;
-  letter-spacing: 3px;
-  //text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 #ias-wrapper a.ia-header-link{
-  font-weight: 100;
-  color: black;
+  font-size: 56px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.84);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 #ias-wrapper a.ia-header-link:hover{
@@ -34,18 +29,18 @@
 }
 
 #ias-wrapper section.ia-content{
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.8;
 }
 
 #ias-wrapper div.ia-content-container{
   width: calc(100% - 180px);
   margin-right: 0px;
+  font-family: "Charter", Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 #ias-wrapper div.ia-content-container p{
-  color: rgb(100, 100, 100);
+  color: rgba(0, 0, 0, 0.84);
 }
 
 #ias-wrapper div.ia-content-widget-container{
