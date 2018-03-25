@@ -8,43 +8,30 @@
 
     color: rgba(0, 0, 0, 0.8);
   }
-}
 
-#post-wrapper div.post-container{
-  max-width: 50%;
-  margin: 0px auto 120px auto;
-}
+  div.post-container{
+    max-width: 50%;
+    margin: 0px auto 120px auto;
+  }
 
-#post-wrapper h1.post-title{
-  font-size: 50px;
-  text-align: center;
-}
+  h1.post-title{
+    font-size: 60px;
+    text-align: center;
+  }
 
-#post-wrapper h5.post-date{
-  text-align: center;
-  margin-top: -10px;
-  color: rgb(130, 130, 130);
-}
+  h5.post-date{
+    text-align: center;
+    margin-top: -10px;
+    color: rgb(130, 130, 130);
+  }
 
-#post-wrapper section.post-content{
-  font-size: 20px;
-  line-height: 1.5;
-}
+  section.post-content{
+    font-size: 20px;
+    line-height: 1.5;
+  }
 
-#post-wrapper section.post-content p{
-  color: rgba(0, 0, 0, 0.8);
-  margin: 0px 0px 15px 0px;
-}
-
-#post-wrapper section.post-content blockquote{
-  margin: 0px 0px 0px -20px;
-  padding: 5px 0px 5px 20px;
-  border-left: 6px solid black;
-}
-
-#post-wrapper section.post-content blockquote p{
-  margin: 0px;
-  color: black;
-  font-style: italic;
-  font-family: Merriweather, serif;
+  section.post-content p{
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0px 0px 15px 0px;
+  }
 }

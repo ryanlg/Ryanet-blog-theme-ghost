@@ -8,7 +8,7 @@
   {{!-- Mobile Meta --}}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{!-- Brand icon --}}
-  {{!-- <link rel="shortcut icon" href="{{asset "images/favicon.ico"}}"> --}}
+  <link rel="icon" href="{{asset "static/images/icon.png"}}">
   {{!-- Styles"n"Scripts --}}
   <link href="{{asset "static/ryan.css"}}" rel="stylesheet">
   <script src="{{asset "static/js/jquery.min.js"}}"></script>
@@ -22,7 +22,7 @@
   {{!-- Ghost outputs important style and meta data with this tag --}}
   {{ghost_head}}
 </head>
-</head>
+{{ghost_foot}}
 <body class="ui-font">
   <div class="container">
     <div id="sidebar" class="with-animation">
@@ -46,11 +46,7 @@
             </li>
           </ul>
         </div>
-
       </div>
       {{{body}}}
     </div>
-
-
-
-  </body>
+</body>

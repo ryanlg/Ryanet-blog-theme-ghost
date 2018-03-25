@@ -2,64 +2,64 @@
   position: fixed;
   height: 100%;
   width: 280px;
-}
 
-#sidebar ul.sidebar-profile{
-  padding: 0px;
-  padding-bottom: 15px;
-}
+  ul.sidebar-profile{
+    padding: 0px;
+    padding-bottom: 15px;
+  }
 
-#sidebar div.sidebar-container{
-  margin-left: 40px;
-  margin-top: 30px;
-  text-align: center;
-}
+  div.sidebar-container{
+    margin-left: 40px;
+    margin-top: 30px;
+    text-align: center;
+  }
 
-#sidebar span.sidebar-profile-title{
-  color: #5c6a70;
-  display: block;
-  font-size: 30px;
-  font-weight: 100;
-  margin-top: 10px;
-}
+  span.sidebar-profile-title{
+    color: #5c6a70;
+    display: block;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 10px;
+  }
 
-#sidebar img.sidebar-profile-image{
-  width: 120px;
-  margin-top: 30px;
-}
+  img.sidebar-profile-image{
+    width: 120px;
+    margin-top: 30px;
+  }
 
-#sidebar ul.sidebar-btns{
-  padding: 0px;
-  margin: 30px 0 30px 0px;
-  padding-bottom: 15px;
-}
+  ul.sidebar-btns{
+    padding: 0px;
+    margin: 30px 0 30px 0px;
+    padding-bottom: 15px;
+  }
 
-#sidebar li.sidebar-btn{
-  margin: 15px 0px 20px 0px;
-}
+  li.sidebar-btn{
+    margin: 15px 0px 20px 0px;
+  }
 
-#sidebar a.sidebar-btn-link{
-  color: #5c6a70;
-  font-size: 16px;
-  text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.2);
-  font-weight: 100;
-  text-decoration: none;
-}
+  a.sidebar-btn-link{
+    color: #5c6a70;
+    font-size: 16px;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.2);
+    font-weight: 100;
+    text-decoration: none;
+  }
 
-#sidebar a.sidebar-btn-link:hover{
-  color: #819BA6;
-}
+  a.sidebar-btn-link:hover{
+    color: #819BA6;
+  }
 
-#sidebar i.sidebar-btn-link-icon{
-  font-size: 20px;
-  margin-right: 9px;
-}
+  i.sidebar-btn-link-icon{
+    font-size: 20px;
+    margin-right: 9px;
+  }
 
-#sidebar i.sidebar-btn-link:hover{
-  color: #ffffff;
-  text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.5);
-}
+  i.sidebar-btn-link:hover{
+    color: #ffffff;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.5);
+  }
 
-#sidebar div.sidebar-separator{
-  border-top: 1px dashed rgb(230, 230, 230);
+  div.sidebar-separator{
+    border-top: 1px dashed rgb(230, 230, 230);
+  }
 }
