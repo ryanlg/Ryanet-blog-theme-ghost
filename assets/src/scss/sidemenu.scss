@@ -15,11 +15,11 @@
   position: absolute;
   height: 35px;
   width: 35px;
-  border-radius: 20px;
-  box-shadow: 0px 0px 3px;
+  border-radius: 40px;
   z-index: 100;
   margin: 8px 10px;
   cursor: pointer;
+  border: 1px solid black;
 }
 
 #sidemenu div.sidemenu-top{
@@ -35,7 +35,7 @@
 
 #sidemenu a.sidemenu-top-name{
   display: block;
-  margin: 10px 5px 5px 55px;
+  margin: 16px 5px 5px 55px;
   text-shadow: 0px 0px 1px rgba(130, 130, 130, 0.2);
 }
 
@@ -43,7 +43,7 @@
   margin-top: 50px;
   position: fixed;
   width: 150px;
-  height: 115px;
+  height: 94px;
   border-color: rgba(133, 133, 133, 0.2);
   border: 1px solid rgba(133, 133, 133, 0.2);
   z-index: 50;
