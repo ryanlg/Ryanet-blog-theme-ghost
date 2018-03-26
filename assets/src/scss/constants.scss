@@ -3,3 +3,11 @@ $content-font: "Charter", Georgia, Cambria, "Times New Roman", Times, serif;
 $ui-font: "Lato", "Open Sans",  "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", sans-serif;
 
 $content-color: rgba(0, 0, 0, 0.84);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;

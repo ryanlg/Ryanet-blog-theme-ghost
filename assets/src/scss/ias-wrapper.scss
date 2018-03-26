@@ -1,3 +1,5 @@
+@import "./mixins/breakpoints.scss";
+
 #ias-wrapper{
   float: right;
   width: calc(100% - 370px);
@@ -7,7 +9,7 @@
   div.ias-container{
     max-width: 1600px;
     margin: 50px auto 0px auto;
-    padding: 0px 80px;
+    padding: 0px 7%;
   }
 
   a.ia-header-link{
@@ -33,7 +35,7 @@
   }
 
   div.ia-content-container{
-    width: calc(100% - 180px);
+    width: calc(100% - 100px - 7%); // -7% for adaptive
     margin-right: 0px;
     font-family: "Charter", Georgia, Cambria, "Times New Roman", Times, serif;
   }
@@ -90,5 +92,11 @@
     padding: 5px;
     border: 1px solid #349ef3;
     border-radius: 5px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    *{
+      color: red !important;
+    }
   }
 }

@@ -5,7 +5,7 @@
 @import '../../static/fonts/charter/charter.scss';
 @import '../../static/fonts/playfair/playfair.scss';
 
-@import './contants.scss';
+@import './constants.scss';
 
 * {
     -webkit-font-smoothing: antialiased;
@@ -122,6 +122,8 @@ hr{
 
 .container{
   height: 100%;
+  max-width: 1800px;
+  margin: auto;
 }
 
 .card{
