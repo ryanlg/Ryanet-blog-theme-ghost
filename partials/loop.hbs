@@ -34,6 +34,15 @@
 		</div>
 	</section>
 	<footer>
+	<span class="ia-content-widget-simple">
+		<time class="ia-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+		&middot;
+		{{#if tags}}
+			{{#foreach tags limit="1"}}
+				<a href="{{url}}" title="{{name}}" class="nonhover tag block">{{name}}</a>
+			{{/foreach}}
+		{{/if}}
+	</span>
 	<a class="ia-read-more" href="{{{url}}}" title="{{title}}" >Read more... </a>
 </footer>
 <div class="separator ia-separator"></div>
