@@ -112,10 +112,12 @@ li{
 }
 
 p img{
-  padding: 3px;
+  margin: 25px auto;
+  padding: 8px;
   border-radius: 5px;
   border: 1px dashed lightgrey;
-  max-width: 100%;
+  max-width: 95%;
+  display: block;
 }
 
 pre{
