@@ -1,4 +1,55 @@
 @charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v3.0 | 20180413
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block; }
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
        ========================================================================== */
@@ -508,8 +559,59 @@ html, body {
   height: 100%;
   background-color: #dadfe1; }
 
+h1 {
+  display: block;
+  font-size: 2em;
+  margin: 1em 0;
+  font-weight: bold; }
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin: 1em 0;
+  font-weight: bold; }
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin: 1em 0;
+  font-weight: bold; }
+
+h4 {
+  display: block;
+  font-size: 1em;
+  margin: 1em 0;
+  font-weight: bold; }
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin: 1em 0;
+  font-weight: bold; }
+
 h1, h2, h3, h4, h5, h6 {
-  margin: 60px 0px 20px 0px; }
+  margin: 30px 0px 0px 0px;
+  font-weight: 700; }
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-left: 1em; }
+  ol li {
+    padding-left: 10px; }
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-left: 1em; }
+  ul li {
+    padding-left: 10px; }
+
+mark {
+  padding: 2px 6px;
+  margin-left: -2px;
+  border-radius: 2px;
+  background-color: rgba(165, 226, 247, 0.65); }
 
 a, a:active, a:visited {
   cursor: pointer;
@@ -551,7 +653,8 @@ pre {
   white-space: pre;
   overflow: auto;
   background: #F7FAFB;
-  border-radius: 3px; }
+  border-radius: 3px;
+  margin-top: 20px; }
 
 code {
   padding: 1px 3px;
@@ -661,7 +764,8 @@ hr {
     width: 280px; }
     #sidebar ul.sidebar-profile {
       padding: 0px;
-      padding-bottom: 15px; }
+      padding-bottom: 25px;
+      margin-left: 0px; }
     #sidebar div.sidebar-container {
       margin-left: 40px;
       margin-top: 30px;
@@ -680,7 +784,8 @@ hr {
       margin: 30px 0 30px 0px;
       padding-bottom: 15px; }
     #sidebar li.sidebar-btn {
-      margin: 15px 0px 20px 0px; }
+      margin: 15px 0px 20px 0px;
+      padding-left: 0px; }
     #sidebar a.sidebar-btn-link {
       color: #5c6a70;
       font-size: 16px;
@@ -707,6 +812,7 @@ hr {
       padding: 0px;
       padding-bottom: 15px; }
     #sidebar div.sidebar-container {
+      margin-top: 15px;
       margin-left: 20px;
       text-align: center; }
     #sidebar span.sidebar-profile-title {
@@ -770,7 +876,7 @@ hr {
     background: white; }
   #sidemenu a.sidemenu-top-name {
     display: block;
-    margin: 16px 5px 5px 55px;
+    margin: 16px 5px 5px 59px;
     text-shadow: 0px 0px 1px rgba(130, 130, 130, 0.2); }
   #sidemenu div.sidemenu-menu {
     margin-top: 50px;
@@ -783,7 +889,11 @@ hr {
     background: white;
     box-shadow: 0px 2px 5px rgba(130, 130, 130, 0.2); }
   #sidemenu ul {
-    padding-left: 33px; }
+    text-align: center;
+    margin-left: 0; }
+    #sidemenu ul li {
+      padding-left: 0;
+      margin: 15px 0; }
   #sidemenu span.sidemenu-btn-name {
     padding-left: 10px; }
   #sidemenu a.sidemenu-btn-link {
@@ -792,12 +902,20 @@ hr {
     text-decoration: none;
     color: #819BA6; }
   #sidemenu div.sidemenu-separator {
-    margin-left: -30px;
     margin-bottom: 15px;
     border-top: 1px solid #e6e6e6; }
 
+#ias-wrapper .ia-header {
+  margin-bottom: 30px; }
+
 #ias-wrapper .separator {
   padding-bottom: 0px; }
+
+#ias-wrapper ol, #ias-wrapper ul {
+  margin-left: 40px; }
+
+#ias-wrapper footer {
+  margin-top: 30px; }
 
 @media (min-width: 1200px) {
   #ias-wrapper {
@@ -831,6 +949,10 @@ hr {
       text-align: center;
       margin: auto 0px;
       float: right; }
+      #ias-wrapper div.ia-content-widget-container ul {
+        margin-left: 0px; }
+        #ias-wrapper div.ia-content-widget-container ul li {
+          padding-left: 0px; }
     #ias-wrapper div.ia-content-widget-separator {
       border-top: 1px solid #dadfe1;
       margin: 10px; }
@@ -873,7 +995,7 @@ hr {
     #ias-wrapper div.ias-container {
       padding: 0px 5%; }
     #ias-wrapper a.ia-header-link {
-      font-size: 45px;
+      font-size: 50px;
       font-weight: 600;
       color: rgba(0, 0, 0, 0.84);
       text-decoration: none;
@@ -920,8 +1042,6 @@ hr {
       padding: 5px;
       border: 1px solid #349ef3;
       border-radius: 5px; }
-    #ias-wrapper footer {
-      margin-top: 30px; }
     #ias-wrapper .ia-content-widget-simple {
       display: initial;
       color: #858585; }
@@ -938,6 +1058,9 @@ hr {
         color: #535353; }
     #ias-wrapper .ia-read-more {
       float: right; } }
+
+#post-wrapper ol, #post-wrapper ul {
+  margin-left: 40px; }
 
 @media (min-width: 1200px) {
   #post-wrapper {
@@ -957,7 +1080,6 @@ hr {
       text-align: center; }
     #post-wrapper h5.post-date {
       text-align: center;
-      margin-top: -10px;
       color: #828282; }
     #post-wrapper section.post-content {
       font-size: 20px;

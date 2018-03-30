@@ -1,3 +1,9 @@
+#post-wrapper{
+  ol, ul {
+    margin-left: 40px;
+  }
+}
+
 @include media-breakpoint-only(xl) {
   #post-wrapper{
     min-height: 100%;
@@ -23,7 +29,6 @@
 
     h5.post-date{
       text-align: center;
-      margin-top: -10px;
       color: rgb(130, 130, 130);
     }
 

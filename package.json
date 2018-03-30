@@ -19,6 +19,7 @@
     },
     "dependencies": {
         "compass-mixins": "^0.12.10",
-        "normalize-scss": "^7.0.1"
+        "normalize-scss": "^7.0.1",
+        "reset-css": "^3.0.0"
     }
 }
