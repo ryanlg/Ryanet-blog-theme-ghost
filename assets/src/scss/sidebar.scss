@@ -78,7 +78,7 @@
 
     ul.sidebar-profile{
       padding: 0px;
-      padding-bottom: 15px;
+      margin-bottom: 30px;
     }
 
     div.sidebar-container{
@@ -98,6 +98,14 @@
     img.sidebar-profile-image{
       width: 120px;
       margin-top: 30px;
+    }
+
+    ul {
+      margin-left: 0;
+    }
+
+    li {
+      padding-left: 0;
     }
 
     ul.sidebar-btns{
