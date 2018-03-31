@@ -240,3 +240,131 @@
     }
   }
 }
+
+// inherit most style since many can be reused
+@include media-breakpoint-down(md) {
+  #ias-wrapper{
+    float: right;
+    margin: 10px 8px;
+    min-height: calc(100% - 100px);
+
+    h1,h2,h3,h4,h5,h6 {
+      margin-top: 30px;
+    }
+
+    div.ias-container{
+      padding: 0px 5%;
+    }
+
+    a.ia-header-link{
+      font-size: 50px;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.84);
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+    }
+
+    a.ia-header-link:hover{
+      color: #349ef3;
+    }
+
+    section.ia-content{
+      font-size: 17px;
+      line-height: 1.8;
+    }
+
+    div.ia-content-container{
+      width: 100%;
+      margin-right: 0px;
+      font-family: "Charter", Georgia, Cambria, "Times New Roman", Times, serif;
+    }
+
+    div.ia-content-container p{
+      color: rgba(0, 0, 0, 0.84);
+    }
+
+    div.ia-content-widget-container{
+      display: none;
+    }
+
+    div.ia-content-widget-separator{
+      border-top: 1px solid rgb(218, 223, 225);
+      margin: 10px;
+    }
+
+    time.ia-date{
+      color: rgb(133, 133, 133);
+      font-size: 14px;
+    }
+
+    div.ia-separator{
+      width: 400px;
+      margin: 80px auto 0px auto;
+    }
+
+    div.tag-header{
+      background-color: grey;
+      text-align: center;
+    }
+
+    .tag-header-tag{
+      margin: 0px;
+      color: white;
+      padding: 15px 0px 10px 0px;
+    }
+
+    div.tag-header-separator{
+      margin: 0px auto;
+      width: 50px;
+    }
+
+    h1.tag-header-name{
+      padding: 10px 0px 15px 0px;
+      margin: 0px;
+      color: white;
+    }
+
+    a.tags-tag{
+      margin: 5px;
+      padding: 5px;
+      border: 1px solid #349ef3;
+      border-radius: 5px;
+    }
+
+    .ia-content-widget-simple {
+      display: initial;
+      color: #858585;
+
+      .tag {
+        border: 0px;
+        padding: 0px 0px;
+        margin: 0px;
+        color: inherit;
+      }
+
+      .tag:hover{
+        background-color: initial;
+        color: #535353;
+      }
+      
+      .tag:active{
+        background-color: initial;
+        color: #535353;
+      }
+    }
+
+    .ia-read-more {
+      float: right;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  #ias-wrapper{
+
+    div.ias-container{
+      padding: 0px 20px;
+    }
+  }
+}
