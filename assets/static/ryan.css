@@ -748,7 +748,7 @@ hr {
     position: relative;
     top: 40%;
     transform: translateY(-50%);
-    width: 50%;
+    width: 60%;
     margin: auto; }
   #error .error-code {
     font-size: 200px;
@@ -756,8 +756,31 @@ hr {
     margin: 0px; }
   #error .error-message {
     margin: 0px;
+    margin-top: 30px;
     font-size: 80px;
     color: #969696; }
+
+@media (max-width: 1199.98px) {
+  #error .error-container {
+    width: 80%; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #error .error-code {
+    font-size: 150px; }
+  #error .error-message {
+    font-size: 60px; } }
+
+@media (max-width: 991.98px) {
+  #error .error-code {
+    font-size: 100px; }
+  #error .error-message {
+    font-size: 45px; } }
+
+@media (max-width: 767.98px) {
+  #error .error-code {
+    font-size: 100px; }
+  #error .error-message {
+    font-size: 30px; } }
 
 @media (min-width: 1200px) {
   #sidebar {
