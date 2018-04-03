@@ -1,7 +1,7 @@
 {
     "name": "ryan",
     "description": "Just a theme for the blog, nothing really amazing.",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "license": "MIT",
     "Github": "https://github.com/xmomowan",
     "author": {
@@ -15,7 +15,9 @@
     },
     "scripts": {
         "build-scss": "node-sass --include-path assets/src/scss/ --output assets/static assets/src/scss/ryan.scss",
-        "watch-scss": "nodemon -w assets/src/scss/ -e scss -x 'npm run build-scss'"
+        "watch-scss": "nodemon -w assets/src/scss/ -e scss -x 'npm run build-scss'",
+        "build-css-min": "uglifycss assets/static/ryan.css > assets/static/ryan.min.css",
+        "build-js-min": "uglifyjs --compress --mangle --output assets/static/js/ryan.min.js -- assets/src/js/ryan.js"
     },
     "dependencies": {
         "compass-mixins": "^0.12.10",
