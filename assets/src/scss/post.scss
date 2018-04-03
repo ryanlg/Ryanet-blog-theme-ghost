@@ -4,7 +4,7 @@
   }
 }
 
-@include media-breakpoint-only(xl) {
+@include media-breakpoint-down(xl) {
   #post-wrapper{
     min-height: 100%;
     width: 100%;
@@ -12,6 +12,29 @@
 
     h1,h2,h3,h4,h5,h6 {
       color: rgba(0, 0, 0, 0.8);
+    }
+
+    .tag-poem {
+      text-align: center;
+
+      p {
+        line-height: 32px;
+      }
+    }
+
+    article[lang="cn"] {
+      h1.post-title{
+        font-size: 45px;
+        font-family: "Charter", "Songti SC", sans-serif; // Chinese font, a joke on web
+      }
+      section.post-content{
+        font-size: 18px;
+        font-family: "Charter", "Songti SC", sans-serif; // Chinese font, a joke on web
+        
+        p {
+          text-shadow: 0 0 1px rgba(152, 152, 152, 0.1);
+        }
+      }
     }
 
     div.post-container{
@@ -39,7 +62,7 @@
 
     section.post-content p{
       color: rgba(0, 0, 0, 0.8);
-      margin: 0px 0px 15px 0px;
+      margin: 0px 0px 20px 0px;
     }
   }
 }
@@ -47,9 +70,6 @@
 
 @include media-breakpoint-down(lg) {
   #post-wrapper{
-    min-height: 100%;
-    width: 100%;
-    background-color: white;
     position: absolute;
 
     h1,h2,h3,h4,h5,h6 {
@@ -58,28 +78,16 @@
 
     div.post-container{
       padding-top: 50px;
+      width: initial;
       max-width: 70%;
       margin: 0px auto 120px auto;
     }
 
-    h1.post-title{
-      font-size: 60px;
-      text-align: center;
-    }
-
-    h5.post-date{
-      text-align: center;
-      color: rgb(130, 130, 130);
-    }
-
-    section.post-content{
-      font-size: 20px;
-      line-height: 1.5;
-    }
-
-    section.post-content p{
-      color: rgba(0, 0, 0, 0.8);
-      margin: 0px 0px 15px 0px;
+    article[lang="cn"] {
+      section.post-content{
+        letter-spacing: -0.3px;
+        font-size: 16px;
+      }
     }
   }
 }

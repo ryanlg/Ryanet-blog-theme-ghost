@@ -1047,74 +1047,82 @@ hr {
 #ias-wrapper footer {
   margin-top: 30px; }
 
-@media (min-width: 1200px) {
-  #ias-wrapper {
-    float: right;
-    width: calc(100% - 370px);
-    margin: 30px 40px;
-    min-height: calc(100% - 60px); }
-    #ias-wrapper div.ias-container {
-      max-width: 1600px;
-      margin: 50px auto 0px auto;
-      padding: 0px 7%; }
-    #ias-wrapper a.ia-header-link {
-      font-size: 56px;
-      font-weight: 600;
-      color: rgba(0, 0, 0, 0.84);
-      text-decoration: none;
-      letter-spacing: 0.5px;
-      font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif; }
-    #ias-wrapper a.ia-header-link:hover {
-      color: #349ef3; }
-    #ias-wrapper section.ia-content {
-      font-size: 20px;
-      line-height: 1.8; }
-    #ias-wrapper div.ia-content-container {
-      width: calc(100% - 100px - 7%);
-      margin-right: 0px;
-      font-family: "Charter", Georgia, Cambria, "Times New Roman", Times, serif; }
-    #ias-wrapper div.ia-content-container p {
-      color: rgba(0, 0, 0, 0.84); }
-    #ias-wrapper div.ia-content-widget-container {
-      text-align: center;
-      margin: auto 0px;
-      float: right; }
-      #ias-wrapper div.ia-content-widget-container ul {
-        margin-left: 0px; }
-        #ias-wrapper div.ia-content-widget-container ul li {
-          padding-left: 0px; }
-    #ias-wrapper div.ia-content-widget-separator {
-      border-top: 1px solid #dadfe1;
-      margin: 10px; }
-    #ias-wrapper time.ia-date {
-      color: #858585;
-      font-size: 14px; }
-    #ias-wrapper div.ia-separator {
-      width: 400px;
-      margin: 80px auto 0px auto; }
-    #ias-wrapper div.tag-header {
-      background-color: grey;
-      text-align: center; }
-    #ias-wrapper .tag-header-tag {
-      margin: 0px;
-      color: white;
-      padding: 15px 0px 10px 0px; }
-    #ias-wrapper div.tag-header-separator {
-      margin: 0px auto;
-      width: 50px; }
-    #ias-wrapper h1.tag-header-name {
-      padding: 10px 0px 15px 0px;
-      margin: 0px;
-      color: white; }
-    #ias-wrapper a.tags-tag {
-      margin: 5px;
-      padding: 5px;
-      border: 1px solid #349ef3;
-      border-radius: 5px; }
-    #ias-wrapper .ia-content-widget-simple {
-      display: none; } }
+#ias-wrapper {
+  float: right;
+  width: calc(100% - 370px);
+  margin: 30px 40px;
+  min-height: calc(100% - 60px); }
+  #ias-wrapper article[lang="cn"] a.ia-header-link {
+    font-size: 40px;
+    font-family: "Charter", "Songti SC", sans-serif; }
+  #ias-wrapper article[lang="cn"] section.ia-content {
+    font-size: 18px;
+    text-shadow: 0 0 1px rgba(152, 152, 152, 0.1); }
+  #ias-wrapper article[lang="cn"] div.ia-content-container {
+    font-family: "Charter", "Songti SC", sans-serif; }
+  #ias-wrapper div.ias-container {
+    max-width: 1600px;
+    margin: 50px auto 0px auto;
+    padding: 0px 7%; }
+  #ias-wrapper a.ia-header-link {
+    font-size: 56px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.84);
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif; }
+  #ias-wrapper a.ia-header-link:hover {
+    color: #349ef3; }
+  #ias-wrapper section.ia-content {
+    font-size: 20px;
+    line-height: 1.8; }
+  #ias-wrapper div.ia-content-container {
+    width: calc(100% - 100px - 7%);
+    margin-right: 0px;
+    font-family: "Charter", Georgia, Cambria, "Times New Roman", Times, serif; }
+  #ias-wrapper div.ia-content-container p {
+    color: rgba(0, 0, 0, 0.84);
+    margin-bottom: 13px; }
+  #ias-wrapper div.ia-content-widget-container {
+    text-align: center;
+    margin: auto 0px;
+    float: right; }
+    #ias-wrapper div.ia-content-widget-container ul {
+      margin-left: 0px; }
+      #ias-wrapper div.ia-content-widget-container ul li {
+        padding-left: 0px; }
+  #ias-wrapper div.ia-content-widget-separator {
+    border-top: 1px solid #dadfe1;
+    margin: 10px; }
+  #ias-wrapper time.ia-date {
+    color: #858585;
+    font-size: 14px; }
+  #ias-wrapper div.ia-separator {
+    width: 400px;
+    margin: 80px auto 0px auto; }
+  #ias-wrapper div.tag-header {
+    background-color: grey;
+    text-align: center; }
+  #ias-wrapper .tag-header-tag {
+    margin: 0px;
+    color: white;
+    padding: 15px 0px 10px 0px; }
+  #ias-wrapper div.tag-header-separator {
+    margin: 0px auto;
+    width: 50px; }
+  #ias-wrapper h1.tag-header-name {
+    padding: 10px 0px 15px 0px;
+    margin: 0px;
+    color: white; }
+  #ias-wrapper a.tags-tag {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #349ef3;
+    border-radius: 5px; }
+  #ias-wrapper .ia-content-widget-simple {
+    display: none; }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (max-width: 1199.98px) {
   #ias-wrapper {
     float: right;
     width: calc(100% - 300px);
@@ -1123,57 +1131,18 @@ hr {
     #ias-wrapper h1, #ias-wrapper h2, #ias-wrapper h3, #ias-wrapper h4, #ias-wrapper h5, #ias-wrapper h6 {
       margin-top: 30px; }
     #ias-wrapper div.ias-container {
-      padding: 0px 5%; }
+      padding: 0px 5%;
+      margin: 0; }
     #ias-wrapper a.ia-header-link {
-      font-size: 50px;
-      font-weight: 600;
-      color: rgba(0, 0, 0, 0.84);
-      text-decoration: none;
-      letter-spacing: 0.5px;
-      font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif; }
-    #ias-wrapper a.ia-header-link:hover {
-      color: #349ef3; }
+      font-size: 50px; }
     #ias-wrapper section.ia-content {
-      font-size: 17px;
-      line-height: 1.8; }
+      font-size: 17px; }
     #ias-wrapper div.ia-content-container {
-      width: 100%;
-      margin-right: 0px;
-      font-family: "Charter", Georgia, Cambria, "Times New Roman", Times, serif; }
-    #ias-wrapper div.ia-content-container p {
-      color: rgba(0, 0, 0, 0.84); }
+      width: 100%; }
     #ias-wrapper div.ia-content-widget-container {
       display: none; }
-    #ias-wrapper div.ia-content-widget-separator {
-      border-top: 1px solid #dadfe1;
-      margin: 10px; }
-    #ias-wrapper time.ia-date {
-      color: #858585;
-      font-size: 14px; }
-    #ias-wrapper div.ia-separator {
-      width: 400px;
-      margin: 80px auto 0px auto; }
-    #ias-wrapper div.tag-header {
-      background-color: grey;
-      text-align: center; }
-    #ias-wrapper .tag-header-tag {
-      margin: 0px;
-      color: white;
-      padding: 15px 0px 10px 0px; }
-    #ias-wrapper div.tag-header-separator {
-      margin: 0px auto;
-      width: 50px; }
-    #ias-wrapper h1.tag-header-name {
-      padding: 10px 0px 15px 0px;
-      margin: 0px;
-      color: white; }
-    #ias-wrapper a.tags-tag {
-      margin: 5px;
-      padding: 5px;
-      border: 1px solid #349ef3;
-      border-radius: 5px; }
     #ias-wrapper .ia-content-widget-simple {
-      display: initial;
+      display: inline;
       color: #858585; }
       #ias-wrapper .ia-content-widget-simple .tag {
         border: 0px;
@@ -1191,134 +1160,78 @@ hr {
 
 @media (max-width: 991.98px) {
   #ias-wrapper {
+    float: none;
+    width: initial;
     margin: 10px 8px;
     min-height: calc(100% - 100px); }
-    #ias-wrapper h1, #ias-wrapper h2, #ias-wrapper h3, #ias-wrapper h4, #ias-wrapper h5, #ias-wrapper h6 {
-      margin-top: 30px; }
     #ias-wrapper div.ias-container {
       padding: 10px 5% 0px 5%; }
-    #ias-wrapper a.ia-header-link {
-      font-size: 50px;
-      font-weight: 600;
-      color: rgba(0, 0, 0, 0.84);
-      text-decoration: none;
-      letter-spacing: 0.5px;
-      font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif; }
-    #ias-wrapper a.ia-header-link:hover {
-      color: #349ef3; }
-    #ias-wrapper section.ia-content {
-      font-size: 17px;
-      line-height: 1.8; }
-    #ias-wrapper div.ia-content-container {
-      width: 100%;
-      margin-right: 0px;
-      font-family: "Charter", Georgia, Cambria, "Times New Roman", Times, serif; }
-    #ias-wrapper div.ia-content-container p {
-      color: rgba(0, 0, 0, 0.84); }
-    #ias-wrapper div.ia-content-widget-container {
-      display: none; }
-    #ias-wrapper div.ia-content-widget-separator {
-      border-top: 1px solid #dadfe1;
-      margin: 10px; }
-    #ias-wrapper time.ia-date {
-      color: #858585;
-      font-size: 14px; }
     #ias-wrapper div.ia-separator {
-      width: 400px;
-      margin: 80px auto 0px auto; }
-    #ias-wrapper div.tag-header {
-      background-color: grey;
-      text-align: center; }
-    #ias-wrapper .tag-header-tag {
-      margin: 0px;
-      color: white;
-      padding: 15px 0px 10px 0px; }
-    #ias-wrapper div.tag-header-separator {
-      margin: 0px auto;
-      width: 50px; }
-    #ias-wrapper h1.tag-header-name {
-      padding: 10px 0px 15px 0px;
-      margin: 0px;
-      color: white; }
-    #ias-wrapper a.tags-tag {
-      margin: 5px;
-      padding: 5px;
-      border: 1px solid #349ef3;
-      border-radius: 5px; }
-    #ias-wrapper .ia-content-widget-simple {
-      display: initial;
-      color: #858585; }
-      #ias-wrapper .ia-content-widget-simple .tag {
-        border: 0px;
-        padding: 0px 0px;
-        margin: 0px;
-        color: inherit; }
-      #ias-wrapper .ia-content-widget-simple .tag:hover {
-        background-color: initial;
-        color: #535353; }
-      #ias-wrapper .ia-content-widget-simple .tag:active {
-        background-color: initial;
-        color: #535353; }
-    #ias-wrapper .ia-read-more {
-      float: right; } }
+      width: 100%; } }
 
 @media (max-width: 767.98px) {
   #ias-wrapper div.ias-container {
     padding: 5px 20px 0px 20px; } }
 
+@media (max-width: 575.98px) {
+  #ias-wrapper .ia-read-more {
+    display: block;
+    margin-top: 15px;
+    float: none; } }
+
 #post-wrapper ol, #post-wrapper ul {
   margin-left: 40px; }
 
-@media (min-width: 1200px) {
-  #post-wrapper {
-    min-height: 100%;
-    width: 100%;
-    background-color: white; }
-    #post-wrapper h1, #post-wrapper h2, #post-wrapper h3, #post-wrapper h4, #post-wrapper h5, #post-wrapper h6 {
-      color: rgba(0, 0, 0, 0.8); }
-    #post-wrapper div.post-container {
-      padding-top: 50px;
-      width: 60%;
-      max-width: 900px;
-      margin: 0px auto; }
-    #post-wrapper h1.post-title {
-      font-size: 60px;
-      margin-top: 0px;
-      text-align: center; }
-    #post-wrapper h5.post-date {
-      text-align: center;
-      color: #828282; }
-    #post-wrapper section.post-content {
-      font-size: 20px;
-      line-height: 1.5; }
-    #post-wrapper section.post-content p {
-      color: rgba(0, 0, 0, 0.8);
-      margin: 0px 0px 15px 0px; } }
+#post-wrapper {
+  min-height: 100%;
+  width: 100%;
+  background-color: white; }
+  #post-wrapper h1, #post-wrapper h2, #post-wrapper h3, #post-wrapper h4, #post-wrapper h5, #post-wrapper h6 {
+    color: rgba(0, 0, 0, 0.8); }
+  #post-wrapper .tag-poem {
+    text-align: center; }
+    #post-wrapper .tag-poem p {
+      line-height: 32px; }
+  #post-wrapper article[lang="cn"] h1.post-title {
+    font-size: 45px;
+    font-family: "Charter", "Songti SC", sans-serif; }
+  #post-wrapper article[lang="cn"] section.post-content {
+    font-size: 18px;
+    font-family: "Charter", "Songti SC", sans-serif; }
+    #post-wrapper article[lang="cn"] section.post-content p {
+      text-shadow: 0 0 1px rgba(152, 152, 152, 0.1); }
+  #post-wrapper div.post-container {
+    padding-top: 50px;
+    width: 60%;
+    max-width: 900px;
+    margin: 0px auto; }
+  #post-wrapper h1.post-title {
+    font-size: 60px;
+    margin-top: 0px;
+    text-align: center; }
+  #post-wrapper h5.post-date {
+    text-align: center;
+    color: #828282; }
+  #post-wrapper section.post-content {
+    font-size: 20px;
+    line-height: 1.5; }
+  #post-wrapper section.post-content p {
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0px 0px 20px 0px; }
 
 @media (max-width: 1199.98px) {
   #post-wrapper {
-    min-height: 100%;
-    width: 100%;
-    background-color: white;
     position: absolute; }
     #post-wrapper h1, #post-wrapper h2, #post-wrapper h3, #post-wrapper h4, #post-wrapper h5, #post-wrapper h6 {
       color: rgba(0, 0, 0, 0.8); }
     #post-wrapper div.post-container {
       padding-top: 50px;
+      width: initial;
       max-width: 70%;
       margin: 0px auto 120px auto; }
-    #post-wrapper h1.post-title {
-      font-size: 60px;
-      text-align: center; }
-    #post-wrapper h5.post-date {
-      text-align: center;
-      color: #828282; }
-    #post-wrapper section.post-content {
-      font-size: 20px;
-      line-height: 1.5; }
-    #post-wrapper section.post-content p {
-      color: rgba(0, 0, 0, 0.8);
-      margin: 0px 0px 15px 0px; } }
+    #post-wrapper article[lang="cn"] section.post-content {
+      letter-spacing: -0.3px;
+      font-size: 16px; } }
 
 @media (max-width: 991.98px) {
   #post-wrapper div.post-container {

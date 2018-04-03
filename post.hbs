@@ -3,7 +3,11 @@
 {{#post}}
 <div id="post-wrapper">
   <div class="post-container">
+    {{#has tag="chinese"}}
+    <article class="{{post_class}}" lang="cn">
+    {{else}}
     <article class="{{post_class}}">
+    {{/has}}
       <header>
         <h1 class="post-title title-font">{{title}}</h1>
         <h5 class="post-date">
