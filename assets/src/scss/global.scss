@@ -5,6 +5,7 @@
 @import '../../static/fonts/crimson/crimson.scss';
 @import '../../static/fonts/charter/charter.scss';
 @import '../../static/fonts/playfair/playfair.scss';
+@import '../../static/fonts/opensans/opensans.scss';
 
 @import './constants.scss';
 
@@ -19,38 +20,38 @@ html, body{
   background-color: rgb(218, 223, 225);
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   display: block;
+  font-family: $ui-font;
+}
+
+h1 {
   font-size: 2.2em;
-  margin: 1em 0px 0px 0px;
+  margin: 1.3em 0px 0px 0px;
   font-weight: bold;
 }
 
 h2 {
-  display: block;
   font-size: 1.8em;
-  margin: 1em 0px 0px 0px;
+  margin: 1.3em 0px 0px 0px;
   font-weight: bold;
 }
 
 h3 {
-  display: block;
   font-size: 1.35em;
-  margin: 1em 0px 0px 0px;
+  margin: 1.3em 0px 0px 0px;
   font-weight: bold;
 }
 
 h4 {
-  display: block;
   font-size: 1.17em;
-  margin: 1em 0px 0px 0px;
+  margin: 1.3em 0px 0px 0px;
   font-weight: bold;
 }
 
 h5 {
-  display: block;
   font-size: 0.95em;
-  margin: 1em 0px 0px 0px;
+  margin: 1.3em 0px 0px 0px;
   font-weight: bold;
 }
 
