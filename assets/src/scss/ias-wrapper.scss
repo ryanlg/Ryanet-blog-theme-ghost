@@ -18,11 +18,15 @@
 }
 
 @include media-breakpoint-down(xl) {
-  #ias-wrapper{
+  #ias{
     float: right;
     width: calc(100% - 370px);
     margin: 30px 40px;
     min-height: calc(100% - 60px);
+  }
+
+  #ias-wrapper{
+    float: right;
 
     article[lang="cn"] {
       a.ia-header-link{
@@ -137,14 +141,30 @@
       display: none;
     }
   }
+
+  .ias-copyright {
+    display: table;
+    padding: 20px 0 0 0;
+    color: #828282;
+    margin: auto;
+    font-size: 12px;
+  }
+
+  // second line no padding
+  .ias-copyright+.ias-copyright{
+    padding: 5px 0 0 0;
+  }
 }
 
 @include media-breakpoint-down(lg) {
-  #ias-wrapper{
+  #ias{
     float: right;
     width: calc(100% - 300px);
     margin: 15px 20px;
     min-height: calc(100% - 30px);
+  }
+
+  #ias-wrapper{
 
     h1,h2,h3,h4,h5,h6 {
       margin-top: 30px;
@@ -201,11 +221,15 @@
 
 // inherit most style since many can be reused
 @include media-breakpoint-down(md) {
-  #ias-wrapper{
+  #ias{
     float: none;
     width: initial;
     margin: 10px 8px;
     min-height: calc(100% - 100px);
+  }
+
+  #ias-wrapper{
+    float: none;
 
     div.ias-container{
       padding: 10px 5% 0px 5%;
@@ -214,6 +238,9 @@
     div.ia-separator{
       width: 100%;
     }
+  }
+  .ias-copyright {
+    padding-top: 15px;
   }
 }
 

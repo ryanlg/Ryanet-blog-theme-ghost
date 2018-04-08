@@ -3282,11 +3282,14 @@ hr {
 #ias-wrapper footer {
   margin-top: 30px; }
 
-#ias-wrapper {
+#ias {
   float: right;
   width: calc(100% - 370px);
   margin: 30px 40px;
   min-height: calc(100% - 60px); }
+
+#ias-wrapper {
+  float: right; }
   #ias-wrapper article[lang="cn"] a.ia-header-link {
     font-size: 40px;
     font-family: "Charter", "Songti SC", sans-serif; }
@@ -3357,52 +3360,66 @@ hr {
   #ias-wrapper .ia-content-widget-simple {
     display: none; }
 
+.ias-copyright {
+  display: table;
+  padding: 20px 0 0 0;
+  color: #828282;
+  margin: auto;
+  font-size: 12px; }
+
+.ias-copyright + .ias-copyright {
+  padding: 5px 0 0 0; }
+
 @media (max-width: 1199.98px) {
-  #ias-wrapper {
+  #ias {
     float: right;
     width: calc(100% - 300px);
     margin: 15px 20px;
     min-height: calc(100% - 30px); }
-    #ias-wrapper h1, #ias-wrapper h2, #ias-wrapper h3, #ias-wrapper h4, #ias-wrapper h5, #ias-wrapper h6 {
-      margin-top: 30px; }
-    #ias-wrapper div.ias-container {
-      padding: 0px 5%;
-      margin: 0; }
-    #ias-wrapper a.ia-header-link {
-      font-size: 50px; }
-    #ias-wrapper section.ia-content {
-      font-size: 17px; }
-    #ias-wrapper div.ia-content-container {
-      width: 100%; }
-    #ias-wrapper div.ia-content-widget-container {
-      display: none; }
-    #ias-wrapper .ia-content-widget-simple {
-      display: inline;
-      color: #858585; }
-      #ias-wrapper .ia-content-widget-simple .tag {
-        border: 0px;
-        padding: 0px 0px;
-        margin: 0px;
-        color: inherit; }
-      #ias-wrapper .ia-content-widget-simple .tag:hover {
-        background-color: initial;
-        color: #535353; }
-      #ias-wrapper .ia-content-widget-simple .tag:active {
-        background-color: initial;
-        color: #535353; }
-    #ias-wrapper .ia-read-more {
-      float: right; } }
+  #ias-wrapper h1, #ias-wrapper h2, #ias-wrapper h3, #ias-wrapper h4, #ias-wrapper h5, #ias-wrapper h6 {
+    margin-top: 30px; }
+  #ias-wrapper div.ias-container {
+    padding: 0px 5%;
+    margin: 0; }
+  #ias-wrapper a.ia-header-link {
+    font-size: 50px; }
+  #ias-wrapper section.ia-content {
+    font-size: 17px; }
+  #ias-wrapper div.ia-content-container {
+    width: 100%; }
+  #ias-wrapper div.ia-content-widget-container {
+    display: none; }
+  #ias-wrapper .ia-content-widget-simple {
+    display: inline;
+    color: #858585; }
+    #ias-wrapper .ia-content-widget-simple .tag {
+      border: 0px;
+      padding: 0px 0px;
+      margin: 0px;
+      color: inherit; }
+    #ias-wrapper .ia-content-widget-simple .tag:hover {
+      background-color: initial;
+      color: #535353; }
+    #ias-wrapper .ia-content-widget-simple .tag:active {
+      background-color: initial;
+      color: #535353; }
+  #ias-wrapper .ia-read-more {
+    float: right; } }
 
 @media (max-width: 991.98px) {
-  #ias-wrapper {
+  #ias {
     float: none;
     width: initial;
     margin: 10px 8px;
     min-height: calc(100% - 100px); }
+  #ias-wrapper {
+    float: none; }
     #ias-wrapper div.ias-container {
       padding: 10px 5% 0px 5%; }
     #ias-wrapper div.ia-separator {
-      width: 100%; } }
+      width: 100%; }
+  .ias-copyright {
+    padding-top: 15px; } }
 
 @media (max-width: 767.98px) {
   #ias-wrapper div.ias-container {
