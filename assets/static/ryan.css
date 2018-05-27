@@ -3270,17 +3270,16 @@ hr {
     -o-transition: all 0.35s ease;
     transition: all 0.35s ease false; } }
 
-#ias-wrapper .ia-header {
-  margin-bottom: 30px; }
-
-#ias-wrapper .separator {
-  padding-bottom: 0px; }
-
-#ias-wrapper ol, #ias-wrapper ul {
-  margin-left: 40px; }
-
-#ias-wrapper footer {
-  margin-top: 30px; }
+#ias-wrapper {
+  width: 100%; }
+  #ias-wrapper .ia-header {
+    margin-bottom: 30px; }
+  #ias-wrapper .separator {
+    padding-bottom: 0px; }
+  #ias-wrapper ol, #ias-wrapper ul {
+    margin-left: 40px; }
+  #ias-wrapper footer {
+    margin-top: 30px; }
 
 #ias {
   float: right;
